@@ -1,4 +1,4 @@
-﻿# Define the path where the script run marker will be placed
+# Define the path where the script run marker will be placed
 $markerFilePath = "$env:LOCALAPPDATA\IntuneScriptRunMarker.txt"
 
 # Check if the marker file exists, which indicates the script has already run

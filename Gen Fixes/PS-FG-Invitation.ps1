@@ -1,4 +1,4 @@
-﻿#InFortiESNAC.exevitation Key remove and add
+#InFortiESNAC.exevitation Key remove and add
 
 Stop-Process -Name FortiClient
 
@@ -12,6 +12,6 @@ cd "c:\Program Files\Fortinet\FortiClient\"
 
 Start-Process -FilePath "FortiClient.exe"
 
-cd "C:\Users\james.gorman\OneDrive - universalplant.onmicrosoft.com\Desktop"
+cd C:\
 
 Exit
