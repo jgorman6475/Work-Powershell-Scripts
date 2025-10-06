@@ -1,4 +1,4 @@
-﻿$LAdmin = @("Administrator")  # List of allowed accounts
+$LAdmin = @("Administrator")  # List of allowed accounts
 $AdminGroup = Get-LocalGroupMember -Name "Administrators"
 
 foreach ($member in $AdminGroup) {
